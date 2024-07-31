@@ -1,0 +1,20 @@
+  @import "./library"; 
+@import "./player"; 
+@import "./song"; 
+@import "./nav"; 
+#musicplayer h2, 
+#musicplayer h3 { 
+    color: #133a1b; 
+} 
+#musicplayer h3, 
+#musicplayer h4 { 
+    font-weight: 600; 
+} 
+button { 
+    font-weight: 700; 
+}
+#musicplayer{
+    background: linear-gradient(white,green);
+    width: 50vw;
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+.contact-box {
+  margin: 40px 90px;
+  height: 70vh;
+}
+#sending-box {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: whitesmoke;
+  padding: 20px;
+}
+#emailBox {
+  padding-bottom: 20px;
+}
+#emailBox label {
+  margin-right: 20px;
+}
+#emailBox input {
+  width: 20vw;
+  padding: 5px;
+  outline: none;
+}
+#comments textarea {
+  width: 50vw;
+  height: 40vh;
+  outline: none;
+  display: block;
+  padding: 5px;
+}
+#comments button{
+    padding: 5px 10px;
+    margin-top: 5px;
+}

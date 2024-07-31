@@ -1,0 +1,79 @@
+/* SocialButtons.css */
+.social-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .like-btn {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .like-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .like-btn i {
+    margin-right: 8px;
+  }
+  
+  .like-btn span {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  .share-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .share-btn {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+  
+  .share-btn i {
+    margin-right: 8px;
+  }
+  
+
+  .facebook-btn {
+    color: #4267b2;
+  }
+  
+  .facebook-btn:hover {
+    color: #365899;
+  }
+  
+  .instagram-btn {
+    color: #e4405f;
+  }
+  
+  .instagram-btn:hover {
+    color: #c13584;
+  }
+  
+  .reddit-btn {
+    color: #ff4500;
+  }
+  
+  .reddit-btn:hover {
+    color: #ff5700;
+  }
+  
+  .liked {
+    color: #0205a6; /* Example color when liked */
+  }
+  
