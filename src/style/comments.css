@@ -1,0 +1,49 @@
+/* #comments-section{
+  width: 60vw;
+} */
+#comments-section h2, #related-product #title{
+  font-size: 1.3rem;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#comments-section .comment-container {
+  display: flex;
+  height: 7vh;
+  
+}
+#comments-section .comment-container #usrname-input {
+  height: 95%;
+  width: 20vw;
+  outline: none;
+  padding: 5px 10px;
+  border: none;
+}
+#comments-section .comment-container #comment-input {
+  height: 95%;
+  width: 40vw;
+  outline: none;
+  padding: 5px 10px;
+  background: whitesmoke;
+  border: none;
+}
+#comments-section .comment-container button {
+  padding: 5px 10px;
+  background: gray;
+  border: none;
+  height: 95%;
+  color: white;
+  margin-bottom: 20px;
+}
+.comment-box {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-top: 10px;
+}
+.comment-box h3{
+    margin-bottom: 5px;
+}
+.comment-box p{
+    font-size: 14px;
+}

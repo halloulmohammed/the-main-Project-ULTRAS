@@ -1,0 +1,149 @@
+#Singleprod{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin-top: 4rem;
+}
+.single-prod-hero {
+  min-height: 70vh;
+  max-width:70vw; 
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background: #fff;
+  padding: 30px 60px;
+  margin:60px auto ;
+}
+
+#prodimg {
+  display: block;
+  width: 30vw;
+}
+#prodimg:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.prod-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#description{
+  margin-top: 10px;
+  font-size: 1rem;
+  color: gray;
+
+}
+.section-title{
+  text-align: start;
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+}
+#description h3{
+  font-size: 1.3rem;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.btn-groups{
+  margin-top: 22px;
+}
+.btn-groups button{
+  display: inline-block;
+  font-size: 16px;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-groups button .fas{
+  margin-right: 8px;
+}
+.add-cart-btn{
+  background-color: #FF9F00;
+  border: 2px solid #FF9F00;
+  margin-right: 8px;
+}
+.add-cart-btn:hover{
+  background-color: #fff;
+  color: #FF9F00;
+}
+.buy-now-btn{
+  background-color: #000;
+  border: 2px solid #000;
+}
+.buy-now-btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.product-rating{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+.product-rating span{
+  margin-right: 6px;
+}
+.product-description{
+  font-weight: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  opacity: 0.9;
+  margin-top: 22px;
+}
+.product-name{
+  font-size: 26px;
+  margin-bottom: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.product-price{
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+#review-box{
+  align-self: flex-start;
+}
+#review-box .review-comment{
+  padding:20px 90px; 
+}
+@media (max-width: 768px) {
+  #Singleprod{
+    margin-top: 0;
+  }
+  .single-prod-hero {
+  flex-direction: column;
+  min-height: 90vh;
+  max-width: none;
+  
+  }
+  .single-prod-hero #prodimg{
+    width: 70vw;
+  }
+  .section-title{
+    text-align: center;
+    padding: 0;
+  }
+  .product-name{
+    margin-bottom: 0;
+  }
+  .btn-groups{
+    display: flex;
+  }
+  .btn-groups button{
+    font-size: 0.9rem;
+  }
+  #review-box .review-comment{
+    padding: 20px 30px;
+  }
+}

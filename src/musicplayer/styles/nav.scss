@@ -1,0 +1,33 @@
+nav h1, 
+nav h4 { 
+    color: hsl(230, 75%, 15%); 
+} 
+  
+#musicnav { 
+    min-height: 10vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px; 
+    button { 
+        background: transparent; 
+        border: none; 
+        cursor: pointer; 
+        font-size: 16px; 
+        margin-left: 20%; 
+        border: 2px solid  hsl(230, 25%, 80%); 
+        padding: 0.8rem; 
+        transition: all 0.3s ease; 
+        &:hover { 
+            background: hsl(230, 12%, 40%); 
+            border: none;
+        } 
+    } 
+} 
+@media screen and (max-width: 768px) { 
+    nav { 
+        button { 
+            z-index: 10; 
+        } 
+    } 
+} 

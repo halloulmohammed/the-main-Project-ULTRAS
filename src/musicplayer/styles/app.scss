@@ -1,0 +1,27 @@
+  @import "./library"; 
+@import "./player"; 
+@import "./song"; 
+@import "./nav"; 
+#musicplayer h2, 
+#musicplayer h3 { 
+    color:hsl(230, 75%, 15%); 
+} 
+#musicplayer h3, 
+#musicplayer h4 { 
+    font-weight: 600; 
+} 
+button { 
+    font-weight: 700; 
+}
+#musicplayer{
+    background: hsl(230, 50%, 93%);
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+@media (max-width: 768px) {
+    #musicplayer{
+        width: 92vw;
+        margin-top: 0px;
+    }
+}
